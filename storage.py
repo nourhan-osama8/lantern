@@ -14,4 +14,5 @@ def load():
 
 def save(tasks):
     with TASKS_FILE.open("w", encoding="utf-8") as f:
+        # Save tasks as JSON
         json.dump(tasks, f)
