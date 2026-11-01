@@ -12,3 +12,4 @@ Lantern is a simple command-line task tracker.
 Tasks are stored locally in a JSON file named `tasks.json`.
 
 ## Commands
+lantern remove <task_id> - Removes a task from the tracker.
