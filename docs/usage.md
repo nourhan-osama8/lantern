@@ -10,3 +10,5 @@ Lantern is a simple command-line task tracker.
 ## Storage
 
 Tasks are stored locally in a JSON file named `tasks.json`.
+
+## Commands
