@@ -1,2 +1,3 @@
 This is a temporary draft file.
 R5 drill A: practicing Git commit amendment.
+R5 drill C: practicing commit recovery with reflog.
