@@ -10,11 +10,7 @@ list_parser = sub.add_parser("list")
 
 list_parser.add_argument("--done", action="store_true")
 
-list_parser.add_argument(
-    "--sort",
-    action="store_true",
-    help="Sort tasks alphabetically by title"
-)
+list_parser.add_argument("--sort", action="store_true", help="Sort tasks alphabetically by title")
 
 args = parser.parse_args()
 
