@@ -12,3 +12,9 @@ Lantern is a simple command-line task tracker.
 Tasks are stored locally in a JSON file named `tasks.json`.
 
 ## Commands
+
+## Empty Task List
+
+When you run `lantern list` and there are no tasks, Lantern displays:
+
+`No tasks found.`
