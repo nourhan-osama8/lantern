@@ -1,4 +1,5 @@
 import argparse
+from tasks import list_tasks
 
 
 parser = argparse.ArgumentParser(description="Lantern Task Tracker")
@@ -14,4 +15,9 @@ if args.command == "add":
     print("Add command")
 
 elif args.command == "list":
-    print("List command")
+    tasks = list_tasks()
+
+    if not tasks:
+        print("No tasks found.")
+    else:
+        print("List command")
