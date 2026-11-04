@@ -27,6 +27,9 @@ elif args.command == "list":
     if args.done:
         tasks = [task for task in tasks if task.get("done")]
 
+    if args.sort:
+        tasks = sorted(tasks, key=lambda task: task["title"].lower())
+
     if not tasks:
         print("No tasks found.")
     else:
