@@ -6,6 +6,11 @@ sub = parser.add_subparsers(dest="command")
 
 add_parser = sub.add_parser("add")
 list_parser = sub.add_parser("list")
+list_parser.add_argument(
+    "--sort",
+    action="store_true",
+    help="Sort tasks alphabetically by title"
+)
 
 
 args = parser.parse_args()
